@@ -1,0 +1,125 @@
+body{
+    background-color: #1F2937;
+}
+
+h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    /* or 100% */
+
+    letter-spacing: -0.025em;
+
+    /* white */
+
+    color: #FFFFFF;
+}
+
+h1 span{
+    color: #4ADF86;
+    
+}
+
+h3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 40px;
+    /* or 100% */
+
+    letter-spacing: -0.025em;
+
+    /* white */
+
+    color: #FFFFFF;
+}
+
+#main{
+    display: flex;
+}
+
+button{
+    margin-left:20px ;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+    gap: 12px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    width: 223px;
+    height: 42px;
+    left: 52px;
+    top: 287px;
+
+    background-color: #10B981;
+    /* shadow/sm */
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    
+}
+
+.randomPass{
+    width: 211px;
+height: 39px;
+left: 52px;
+top: 399px;
+margin-left:20px ;
+    margin-right: 20px;
+background: #273549;
+border-radius: 6px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 32px;
+/* identical to box height, or 200% */
+box-shadow: none;
+text-align: center;
+outline: none;
+color: #55F991;
+
+}
+
+.randomPass:focus{
+    outline: none;
+}
+
+#pass-length{
+    margin-left:20px ;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background: #273549;
+border-radius: 6px;
+text-align: center;
+outline: none;
+color: #55F991;
+}
+
+#pass-length:focus{
+    outline: none;
+}
+
+#pass-length::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #55F991;
+    opacity: 1; /* Firefox */
+}
+  
+#pass-length:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #55F991;
+}
+  
+#pass-length::-ms-input-placeholder { /* Microsoft Edge */
+    color: #55F991;
+}
