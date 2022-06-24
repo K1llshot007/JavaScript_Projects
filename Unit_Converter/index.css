@@ -1,0 +1,78 @@
+.main{
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    left: 89px;
+    top: 0px;
+
+    background: #1F2937;
+}
+
+.main .top{
+    position: absolute;
+    width: 550px;
+    height: 260px;
+    left: 0px;
+    top: 0px;
+
+    
+    background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+}
+
+#num{
+    position: absolute;
+    width: 211px;
+    height: 80px;
+    left: 169px;
+    top: 155px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 97.5723px;
+    line-height: 24px;
+    /* or 25% */
+
+    text-align: center;
+    background: none;
+    border: none;
+    
+    color: #FFFFFF;
+}
+
+input:focus{
+    outline: none;
+}
+
+h1{
+    position: absolute;
+    width: 448.4px;
+    height: 38px;
+    left: 51px;
+    top: 53px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 38px;
+    /* identical to box height, or 173% */
+
+    text-align: center;
+    letter-spacing: -0.05em;
+
+    color: #FFFFFF;
+}
+
+.bottom{
+    position: absolute;
+    
+    left: 102px;
+    top: 310px;
+    right: 102px;
+    color: #FFFFFF;
+}
+
+p{
+    text-align: center;
+}
